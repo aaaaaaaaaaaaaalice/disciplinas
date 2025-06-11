@@ -6,20 +6,20 @@
 
 :root {
     --preto: #000000;
-    --marinho: #493D9E;
-    --amarelo-claro: #FFF2AF;
-    --roxo-claro: #B2A5FF;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
-    --branco: #FFFFFF;
-    --marron-claro: #FAF1E6;
+    --marinho: #2e3aee;
+    --branco:#ffffff;
+    --roxo-claro:#a3c4e4;
+    --azul: #3992f8;
+    --azul-claro: #d7edf1;
+    --branco: #ffffff;
+    --azul-claro: #d7edf1;
 }
 
 body {
     height: 100vh;
     box-sizing: border-box;
     background-color: var(--azul-claro);
-    color: var(--amarelo-claro);
+    color: var(--branco);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -74,7 +74,7 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--amarelo-claro);
+    background-color: var(--branco);
 }
 
 #menu-toggle:checked~.lista-vertical {
@@ -82,7 +82,7 @@ header {
 }
 
 #menu-toggle:checked+.botao-disciplinas {
-    background-color: var(--amarelo-claro);
+    background-color: var(--branco);
 }
 
 .links-principais {
@@ -103,7 +103,7 @@ header {
 
 .lista-horizontal a {
     text-decoration: none;
-    color: var(--amarelo-claro);
+    color: var(--branco);
 }
 
 .lista-horizontal a:hover {
@@ -117,7 +117,7 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--verde);
+    color: var(--azul);
     margin-bottom: 60px;
     font-size: 4rem;
 }
@@ -149,7 +149,7 @@ h1 {
 .conteudo h2 {
     display: flex;
     justify-content: center;
-    color: var(--verde);
+    color: var(--azul);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
