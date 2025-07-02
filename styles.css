@@ -12,13 +12,13 @@
     --azul: #3992f8;
     --azul-claro: #d7edf1;
     --rosa: #d8a6d0;
-    --azul-claro: #d7edf1;
+    --pink: #f086de;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--azul-claro);
+    background-color: var(--pink);
     color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
