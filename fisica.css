@@ -6,7 +6,7 @@
 
 :root {
     --preto: #000000;
-    --marinho: #2e3aee;
+    --roxo-escuro: #4e0e81;
     --branco:#ffffff;
     --roxo-claro:#a3c4e4;
     --roxo2: #6239f8;
@@ -27,7 +27,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--roxo-escuro);
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -195,7 +195,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--roxo-escuro);
     margin-bottom: 5px;
 }
 
