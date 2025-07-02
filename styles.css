@@ -6,7 +6,7 @@
 
 :root{
     --preto: #000000;
-    --marinho: #2e3aee;
+    --rosa3: #7e0774;
     --rosa2:#ac7cad;
     --roxo-claro:#c292f8;
     --pink: #b807a0;
@@ -27,7 +27,7 @@ body{
 header {
     display: flex; 
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--rosa3);
     padding: 1rem;
     justify-content: center;
 }
