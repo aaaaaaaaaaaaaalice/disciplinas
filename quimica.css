@@ -9,7 +9,7 @@
     --marinho: #2e3aee;
     --branco:#ffffff;
     --roxo-claro:#a3c4e4;
-    --azul: #3992f8;
+    --verde-escuro: #047232;
     --verde-menta: #90eec7;
     --branco: #ffffff;
     --verde-menta: #90eec7;
@@ -117,7 +117,7 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--azul);
+    color: var(--verde-escuro);
     margin-bottom: 60px;
     font-size: 4rem;
 }
@@ -149,7 +149,7 @@ h1 {
 .conteudo h2 {
     display: flex;
     justify-content: center;
-    color: var(--azul);
+    color: var(--verde-escuro);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
