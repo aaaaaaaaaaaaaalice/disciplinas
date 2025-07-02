@@ -8,10 +8,10 @@
     --preto: #000000;
     --marinho: #2e3aee;
     --branco:#ffffff;
-    --roxo-claro:#f8c1ec;
+    --roxo-claro:#c292f8;
     --azul: #3992f8;
     --azul-claro: #d7edf1;
-    --branco: #ffffff;
+    --rosa: #d8a6d0;
     --azul-claro: #d7edf1;
 }
 
@@ -34,7 +34,7 @@ header {
 
 .portfolio h1{
     font-size: 4rem;
-    color: var(--branco);
+    color: var(--rosa);
 }
 main {
     margin: 40px auto;
@@ -54,7 +54,7 @@ main {
 .disciplina {
     display: flex;
     justify-content: center;
-    background-color: var(--branco);
+    background-color: var(--rosa);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
