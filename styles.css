@@ -9,7 +9,7 @@
     --marinho: #2e3aee;
     --rosa2:#ac7cad;
     --roxo-claro:#c292f8;
-    --azul: #3992f8;
+    --branco: #f0e0e100;
     --azul-claro: #d7edf1;
     --rosa: #d8a6d0;
     --bege: #f1f1f1;
@@ -69,7 +69,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--azul);
+    color: var(--branco);
     font-size: 5rem;
     text-decoration: none;
 }
