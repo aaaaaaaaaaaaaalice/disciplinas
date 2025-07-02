@@ -6,7 +6,7 @@
 
 :root {
     --preto: #000000;
-    --marinho: #2e3aee;
+    --green: #0aa117;
     --branco:#ffffff;
     --roxo-claro:#a3c4e4;
     --verde-escuro: #047232;
@@ -27,7 +27,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--green);
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -57,7 +57,7 @@ header {
     display: none;
     position: absolute;
     background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    box-shadow: 0 2px 5px var(--green);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
@@ -215,6 +215,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--green);
     margin-bottom: 5px;
 }
