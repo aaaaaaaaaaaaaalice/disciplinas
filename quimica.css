@@ -10,15 +10,15 @@
     --branco:#ffffff;
     --roxo-claro:#a3c4e4;
     --azul: #3992f8;
-    --azul-claro: #d7edf1;
+    --verde-menta: #90eec7;
     --branco: #ffffff;
-    --azul-claro: #d7edf1;
+    --verde-menta: #90eec7;
 }
 
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--azul-claro);
+    background-color: var(--verde-menta);
     color: var(--branco);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,7 +168,7 @@ h1 {
 
 .conteudo ul li {
     padding: 10px 0;
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--verde-menta);
     transition: transform 0.5s ease;
     color: var(--preto);
 }
