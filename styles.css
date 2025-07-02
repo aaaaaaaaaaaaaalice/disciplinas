@@ -7,18 +7,18 @@
 :root{
     --preto: #000000;
     --marinho: #2e3aee;
-    --branco:#ffffff;
+    --rosa2:#ac7cad;
     --roxo-claro:#c292f8;
     --azul: #3992f8;
     --azul-claro: #d7edf1;
     --rosa: #d8a6d0;
-    --pink: #f1f1f1;
+    --bege: #f1f1f1;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--pink);
+    background-color: var(--bege);
     color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
